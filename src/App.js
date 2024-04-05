@@ -27,7 +27,7 @@ function App() {
               <li className="font-medium">Data deletion</li>
             </ul>
           </div>
-          <div className="flex-1 sm:w-2/3 sm:text-base text-sm">
+          <div className="flex-1 sm:w-2/3 sm:text-base text-xs">
             <div className="mt-5 sm:mt-0 border-b border-gray-300 sm:pb-6 pb-3">
               <p className="font-medium sm:mb-3 mb-1">
                 Delete information from your organization

@@ -21,9 +21,9 @@ function App() {
         <div className="sm:flex md:w-3/4 mx-auto">
           <div className="sm:w-1/3 pb-4 border-b border-gray-300 sm:border-0 sm:text-base text-sm">
             <ul className="font-light">
-              <li className="mb-1 md:mb-3">Shared event types</li>
-              <li className="mb-1 md:mb-3">Single sign-on</li>
-              <li className="mb-1 md:mb-3">Workflows</li>
+              <li className="mb-2 md:mb-3">Shared event types</li>
+              <li className="mb-2 md:mb-3">Single sign-on</li>
+              <li className="mb-2 md:mb-3">Workflows</li>
               <li className="font-medium">Data deletion</li>
             </ul>
           </div>

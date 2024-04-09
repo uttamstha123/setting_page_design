@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faSort,
@@ -11,6 +10,7 @@ fontawesome.library.add(faSort, faChevronUp, faTrash, faGear);
 
 const DataTable = () => {
   return (
+    <>
     <table cellPadding="10" className="table-auto overflow-x-scroll w-full">
       <thead className="shadow-md rounded">
         <tr className="text-left ">
@@ -36,6 +36,7 @@ const DataTable = () => {
       </thead>
       <tbody className="overflow-x-auto"></tbody>
     </table>
+    </>
   );
 };
 
